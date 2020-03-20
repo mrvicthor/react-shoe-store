@@ -1,0 +1,59 @@
+:root {
+  --mainBlue: #2a2a72;
+  --lightBlue: #009ffd;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --mainYellow: #ffa400;
+}
+
+.container h2 {
+  margin-left: -20px;
+  background: #0062cc;
+  width: 200px;
+  color: #fff;
+  font-size: 24px;
+  padding: 5px;
+  height: 40px;
+  margin-top: 30px;
+}
+.container h2::after {
+  content: "";
+  border-top: 40px solid #0062cc;
+  border-right: 40px solid transparent;
+  position: relative;
+  left: 57px;
+  top: 37px;
+}
+h2.navbar-brand {
+  font-size: 1.6rem;
+}
+h1.text-center {
+  font-family: cursive;
+  text-transform: capitalize;
+}
+.cart-icon {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.status {
+  display: none;
+}
+.btn-black {
+  background: transparent;
+  font-size: 0.8rem !important;
+  text-transform: capitalize;
+  color: var(--mainDark);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--mainDark) !important;
+}
+.btn-black:hover {
+  background: var(--mainDark);
+  color: var(--mainWhite) !important;
+}
+.cart-icon1 {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--mainYellow);
+}
